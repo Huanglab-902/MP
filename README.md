@@ -9,7 +9,7 @@
 
 <p>
 <h2 align="center">3D 
-multiplane SIM (3D-MP-SIM)<sub> Python v1.0</sub></h2>
+multiplane SIM (3D-MP-SIM)<sub> Python </sub></h2>
 <!-- <h6 align="center"><sup>v1.0.3</sup></h6> -->
 <!-- <h4 align="center">This repository contains the updating version of Sparse deconvolution.</h4> -->
 </p>  
@@ -93,7 +93,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 
 `pip install tifffile==2023.7.18`
 
-`pip install opencv-python`
+`pip install opencv-python==4.8.0.74`
 
 `pip install EMD-signal==1.4.0`  
 
@@ -103,8 +103,9 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 <!-- ```pip install pocpy=0.2.0``` -->
 `pip install pyotf==0.0.3`
 
-
 The environment configuration is complete, close the command line  window.
+
+**Note**: Please install the above packages ***in order***, and use `pip list` to verify the package versions after installation, especially ensuring that the version of ***numpy is less than 2.0***. If the installation order is incorrect and errors occur during runtime, try uninstalling the environment and reinstalling the packages in the correct order.
 
 ## Visual Studio Code setting
 
