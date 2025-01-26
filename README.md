@@ -163,7 +163,7 @@ Follow the steps below thereafter:
 </div>
 
 <div align="center">
-  <img src="./assets/UI-56.jpg" alt="Description" width="60%">
+  <img src="./assets/UI-56.jpg" alt="Description" width="100%">
 </div>
 
 
